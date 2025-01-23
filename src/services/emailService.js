@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api/emails';
+const API_URL = process.env.REACT_APP_API_URL || 'https://email-template-backend-d3wb.onrender.com';
 
 export const getEmailLayout = async () => {
   try {
